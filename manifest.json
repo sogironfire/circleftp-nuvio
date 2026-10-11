@@ -1,5 +1,5 @@
 {
-  "id": "circleftp-nuvio"
+  "id": "circleftp-nuvio",
   "name": "CircleFTP Nuvio",
   "version": "1.1.0",
   "description": "A Nuvio local scraper for accessible CircleFTP streams over BDIX.",
