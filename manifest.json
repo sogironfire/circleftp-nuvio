@@ -1,0 +1,52 @@
+{
+  "name": "CircleFTP Nuvio",
+  "version": "1.1.0",
+  "description": "A Nuvio local scraper for accessible CircleFTP streams over BDIX.",
+  "author": "CircleFTP Nuvio contributors",
+  "scrapers": [
+    {
+      "id": "circleftp",
+      "name": "CircleFTP",
+      "description": "Search CircleFTP and return direct HTTP media links for movies and TV episodes.",
+      "version": "1.1.0",
+      "author": "CircleFTP Nuvio contributors",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/circleftp.js",
+      "url": "https://raw.githubusercontent.com/sogironfire/circleftp-nuvio/main/providers/circleftp.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mkv",
+        "mp4",
+        "avi",
+        "webm"
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "id": "circleftp",
+      "name": "CircleFTP",
+      "description": "Search CircleFTP and return direct HTTP media links for movies and TV episodes.",
+      "version": "1.1.0",
+      "author": "CircleFTP Nuvio contributors",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/circleftp.js",
+      "url": "https://raw.githubusercontent.com/sogironfire/circleftp-nuvio/main/providers/circleftp.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mkv",
+        "mp4",
+        "avi",
+        "webm"
+      ]
+    }
+  ]
+}
